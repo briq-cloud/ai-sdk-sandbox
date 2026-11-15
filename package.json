@@ -1,6 +1,6 @@
 {
   "name": "@briq-cloud/ai-sdk-sandbox",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "briq sandboxes for the Vercel AI SDK harness: a network sandbox session built on @briq-cloud/sdk.",
   "keywords": ["briq", "ai-sdk", "harness", "sandbox", "agents"],
   "homepage": "https://briq.cloud",
@@ -41,7 +41,7 @@
     "prepublishOnly": "node build.mjs"
   },
   "dependencies": {
-    "@briq-cloud/sdk": "^0.1.1"
+    "@briq-cloud/sdk": "^0.2.0"
   },
   "peerDependencies": {
     "@ai-sdk/harness": "^1.0.174",

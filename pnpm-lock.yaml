@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@briq-cloud/sdk':
-        specifier: ^0.1.1
-        version: 0.1.1
+        specifier: ^0.2.0
+        version: 0.2.0
     devDependencies:
       '@ai-sdk/harness':
         specifier: 1.0.174
@@ -118,8 +118,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@briq-cloud/sdk@0.1.1':
-    resolution: {integrity: sha512-856zBp/mAkTf6FSwt8l//XmadYL7nv9GsUui1vUDmfX69dBEXDFIq3RSXFBpitkynyHPmTef/eI3cQ57o0Bv/Q==}
+  '@briq-cloud/sdk@0.2.0':
+    resolution: {integrity: sha512-YS2/SJbarLnMfnW0ZVhGFMSTbUF73qnK7aG+eYEiTnNu/qpj3vS3xPjOMP1NpQ04BTGI1PwjPVgdmGrxvlqovA==}
     engines: {node: '>=22.6'}
 
   '@esbuild/aix-ppc64@0.25.12':
@@ -946,7 +946,7 @@ snapshots:
   '@biomejs/cli-win32-x64@1.9.4':
     optional: true
 
-  '@briq-cloud/sdk@0.1.1':
+  '@briq-cloud/sdk@0.2.0':
     dependencies:
       ws: 8.22.1
     transitivePeerDependencies:
